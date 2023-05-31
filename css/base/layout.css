@@ -10,7 +10,6 @@
 .container > .short-row {
     width: 600px;
     margin-left: calc(50% - 300px);
-   background-color: aqua;
 }
 @media (max-width: 1100px){
     .container > .row {

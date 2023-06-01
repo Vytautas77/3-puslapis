@@ -1,5 +1,6 @@
 @import'../base/base.css';
 @import'../base/layout.css';
+@import'../font-awesome.min.css';
 
 .hero{
     min-height: 100vw;
@@ -33,4 +34,27 @@
 }
 footer.container{
     padding-top: 0;
+}
+.row.social{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #fff;
+}
+.social > a {
+    width: 2.5em;
+    height: 2.5emx;
+    line-height: 2.5em;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 50%;
+    transition: all 1s;
+}
+.social > a:hover {
+    background-color: #fff;
+    color: #03a9f3;
 }

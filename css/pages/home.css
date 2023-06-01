@@ -3,6 +3,7 @@
 @import'../font-awesome.min.css';
 @import'../components/clock.css';
 @import'../components/mouse.css';
+@import'../components/progress-bar.css';
 
 .hero{
     min-height: 100vw;
@@ -30,9 +31,6 @@
     height: 35px;
     object-fit: contain;
     object-position: center;
-}
-.hero{
-   /* display: flex; */
 }
 footer.container{
     padding-top: 0;

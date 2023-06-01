@@ -2,7 +2,7 @@
     padding-top: 60px;
     padding-bottom: 60px;
 }
-.container > .short-row {
+.container > .short-row{
     width: 600px;
     margin-left: calc(50% - 300px);
 }

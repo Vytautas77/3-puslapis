@@ -1,6 +1,8 @@
 @import'../base/base.css';
 @import'../base/layout.css';
 @import'../font-awesome.min.css';
+@import'../components/clock.css';
+@import'../components/mouse.css';
 
 .hero{
     min-height: 100vw;
@@ -9,7 +11,7 @@
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size:cover;
     background-position: top;
 }
 .hero >.short-row{
@@ -30,7 +32,7 @@
     object-position: center;
 }
 .hero{
-    display: flex;
+   /* display: flex; */
 }
 footer.container{
     padding-top: 0;

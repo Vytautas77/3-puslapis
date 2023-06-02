@@ -1,0 +1,27 @@
+.btn{
+    background-color: #ea1e63;
+    padding: 0.5em;
+    padding-left: 0.7em;
+    padding-right: 0.7em;
+    /* padding: 0.5em 0.7em; */
+    border: none;
+    text-decoration: none;
+    color: #fff;
+    line-height: 1em;
+    font-size: 20px;
+    border-radius: 0.2em;
+    cursor: pointer;
+    user-select: none;
+    text-align: center;
+}
+.btn:hover{
+    box-shadow: 0 4px 8px #0004;
+}
+.btn.btn-circle{
+    border-radius: 50%;
+    height: 2em;
+    width: 2em;
+    padding: 0;
+    line-height: 2em;
+
+}

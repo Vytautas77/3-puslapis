@@ -17,4 +17,25 @@
     transform: translatex(-50%);
     background-color: #fff;
     border-radius: 0.5em;
+    animation-name: scroll;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+@keyframes scroll {
+    0% {
+        transform: translate(-50%, 0);
+        opacity: 1;
+        /*top: 2.5em;*/
+        /*background-color: #fff;*/
+    }
+    50%{
+        opacity: 1;
+        /*background-color: #fff;*/
+    }
+    100%{
+        transform: translate(-50%, 300%);
+        opacity: 0;
+        /*top: 7.5em;*/
+        /*background-color: transparent;*/
+    }
 }

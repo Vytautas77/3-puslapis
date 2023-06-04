@@ -5,6 +5,8 @@
 @import'../components/mouse.css';
 @import'../components/progress-bar.css';
 @import'../components/buttun.css';
+@import'../components/Forms.css';
+@import'../components/forms1.css';
 
 .hero{
     min-height: 100vw;
